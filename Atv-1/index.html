@@ -18,35 +18,58 @@
             font-family: 'Alkatra', 'cursive';
             text-align: center;
         }
+        div > img{
+            display: inline;
+            width: auto
+            
+        }
         h1{
             font-size: 3.9em;
+            color: brown;
         }
         h2{
             font-size: 2.5em;
+            color: rgb(114, 40, 40);
         }
         p{
             font-family: Arial, Helvetica, sans-serif;
             text-align: justify;
+            color: rgb(190, 133, 58);
         }
-        img{
-            padding: 0px 150px 10px 150px
+        p#last{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            color: rgb(173, 64, 21);
         }
         table{
+            margin: auto;
             text-align: center;
-            width: auto;
-            height: auto;
             color: rgb(194, 21, 21);
+            border: 3px solid black;
         }
+        td{
+            border: 1px solid black;
+            padding: 7px;
+        }
+        footer > p{
+            font-weight: bold;
+            background-color: rgb(170, 165, 165);
+            text-align: center;
+            font-size:  1.5em;
+            color: black;  
+        }
+
+
     </style>
 </head>
 <body>
     <h1>Carros vintage</h1>
-    <img src="camaro.jpg" alt="Camaro clássico vermelho" >
+    <div><img src="camaro.jpg" alt="Camaro clássico vermelho" ></div>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis accusantium odio sunt mollitia consectetur magni, at quo, molestias ullam tenetur magnam? Nisi nihil tempore laborum sapiente quaerat, error eaque?</p>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos veritatis maiores maxime, tempore vel iusto accusantium excepturi sit magni ut asperiores illo fugiat quibusdam, exercitationem quos nisi aperiam velit saepe!</p>
     <h2>Primeiros proprietários</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ea cumque totam repellat, incidunt eveniet harum neque quidem recusandae mollitia iure distinctio animi possimus nostrum veniam, architecto doloribus perferendis soluta.</p>
-    <table border="2">
+    <p id="last">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ea cumque totam repellat, incidunt eveniet harum neque quidem recusandae mollitia iure distinctio animi possimus nostrum veniam, architecto doloribus perferendis soluta.</p>
+    <table>
         <tr>
             <td>Nome</td>
             <td>Idade</td>
@@ -69,5 +92,8 @@
             <td>Estudante</td>
         </tr>
     </table>
+    <footer>
+        <p>Site criado por Matheus H. Biazzi</p>
+    </footer>
 </body>
 </html>
