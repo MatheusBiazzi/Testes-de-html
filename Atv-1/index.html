@@ -18,18 +18,20 @@
             font-family: 'Alkatra', 'cursive';
             text-align: center;
         }
-        picture{
-            tre          
-        }
         h1{
             font-size: 3.9em;
             color: brown;
+        }
+        img{          
+            margin: auto;
+            display: block;
         }
         h2{
             font-size: 2.5em;
             color: rgb(114, 40, 40);
         }
         p{
+            text-indent: 15px;
             font-family: Arial, Helvetica, sans-serif;
             text-align: justify;
             color: rgb(190, 133, 58);
@@ -51,45 +53,51 @@
         }
         footer > p{
             font-weight: bold;
-            background-color: rgb(170, 165, 165);
+            background-color: #DBDBD9;
             text-align: center;
             font-size:  1.5em;
             color: black;  
         }
-
-
     </style>
 </head>
 <body>
-    <h1>Carros vintage</h1>
-    <picture><img src="camaro.jpg" alt="Camaro clássico vermelho" ></picture>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis accusantium odio sunt mollitia consectetur magni, at quo, molestias ullam tenetur magnam? Nisi nihil tempore laborum sapiente quaerat, error eaque?</p>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos veritatis maiores maxime, tempore vel iusto accusantium excepturi sit magni ut asperiores illo fugiat quibusdam, exercitationem quos nisi aperiam velit saepe!</p>
-    <h2>Primeiros proprietários</h2>
-    <p id="last">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ea cumque totam repellat, incidunt eveniet harum neque quidem recusandae mollitia iure distinctio animi possimus nostrum veniam, architecto doloribus perferendis soluta.</p>
-    <table>
-        <tr>
-            <td>Nome</td>
-            <td>Idade</td>
-            <td>Sexo</td>
-            <td>Estado civil</td>
-            <td>Profissão</td>
-        </tr>
-        <tr>
-            <td>Cláudio</td>
-            <td>46</td>
-            <td>Masculino</td>
-            <td>Casado</td>
-            <td>Pedreiro</td>
-        </tr>
-        <tr>
-            <td>Carlos</td>
-            <td>19</td>
-            <td>Masculino</td>
-            <td>Solteiro</td>
-            <td>Estudante</td>
-        </tr>
-    </table>
+    <main>
+        <header>
+            <h1>Carros vintage</h1>
+        </header>
+        <article>
+            <picture>
+                <img src="camaro.jpg" alt="Camaro clássico vermelho" >
+            </picture>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis accusantium odio sunt mollitia consectetur magni, at quo, molestias ullam tenetur magnam? Nisi nihil tempore laborum sapiente quaerat, error eaque?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos veritatis maiores maxime, tempore vel iusto accusantium excepturi sit magni ut asperiores illo fugiat quibusdam, exercitationem quos nisi aperiam velit saepe!</p>
+            <h2>Primeiros proprietários</h2>
+            <p id="last">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ea cumque totam repellat, incidunt eveniet harum neque quidem recusandae mollitia iure distinctio animi possimus nostrum veniam, architecto doloribus perferendis soluta.</p>
+            <table>
+                <tr>
+                    <td>Nome</td>
+                    <td>Idade</td>
+                    <td>Sexo</td>
+                    <td>Estado civil</td>
+                    <td>Profissão</td>
+                </tr>
+                <tr>
+                    <td>Cláudio</td>
+                    <td>46</td>
+                    <td>Masculino</td>
+                    <td>Casado</td>
+                    <td>Pedreiro</td>
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>19</td>
+                    <td>Masculino</td>
+                    <td>Solteiro</td>
+                    <td>Estudante</td>
+                </tr>
+            </table>
+        </article>
+    </main>
     <footer>
         <p>Site criado por Matheus H. Biazzi</p>
     </footer>
